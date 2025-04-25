@@ -1,0 +1,35 @@
+export interface taskInterface {
+  // fullname?: string;
+  // email?: string;
+  // dob?: string;
+  // gender?: string;
+  // address?: string;
+  // phone_number?: string;
+  status?: string;
+  user?: string;
+  // provider?: string;
+  reviewUserId?: string;
+  task_type?: string;
+  task_from?: string;
+  missing_fields?: object;
+  add_fields?: object;
+  // websiteUrl?: string;
+  // googleReviewsURL?: string;
+  // numberOfGoogleReviews?: string;
+  // averageGoogleRating?: string;
+  // bottomGoogleReviews?: string[];
+  // mostRecentGoogleReviews?: string[];
+  // facebookURL?: string;
+  // facebookNumberOfFollowers?: string[];
+  // facebookNumberOfLikes?: string;
+  // yelpProfileURL?: string;
+  // numberOfYelpRatings?: string;
+  // averageYelpRating?: string;
+  // yelpTopReviews?: string[];
+  // yelpMostRecentReviews?: string[];
+  // instagramProfileLink?: string;
+  // numberOfInstagramFollowers?: string;
+  // notes?: string;
+  // admin_notes?: string;
+  // cityId?: string;
+}
